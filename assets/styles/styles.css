@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Okra, Helvetica, sans-serif;
+    border: none;
+}
+
+*:focus{
+    outline: none;
+    border: none;
+}
+
+a{
+    color: unset;
+}
+
+header{
+    background-image: url(../images/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+/*header styles*/
+
+
+
+/*nav bar styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 0px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+nav .nav-item{
+    color: #fff;
+    margin: 0px 10px;
+}
+
+nav div.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div.nav-item.app{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+nav div.nav-item{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+header div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+header img.logo{
+    width: 300px;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+header div.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+}
+
+header div.search-box div.select i{
+    color: #F57082;
+}
+
+header div.search-box div.input i{
+    color: #828282b7;
+}
+
+header div.search-box div.seperator{
+    height: 50%;
+    background-color: #828282b7;
+    width: 2px;
+}
+
+header div.search-box div.input{
+    flex-grow: 80;
+}
+
+header div.search-box div.input input{
+    width: 100%;
+}
+
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 50px;
+}
+
+header div.search-box i{
+    margin: 10px;
+}
+
+/*header sectin completed*/
+
+section.nearby{
+    min-height: 40vh;
+}
+
+section.nearby div.container{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+section.nearby div.container h3{
+    font-size: 2.5rem;
+    font-weight: unset;
+}
+
+section.nearby div.box{
+    max-width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-top: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+section.nearby div.box:hover {
+    box-shadow: rgba(80, 55, 55, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+section.app{
+    min-height: 300px;
+    background-color:  #FEFBF6;
+}
+
+section.app div.container{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.app div.container img{
+   display: block;
+    max-width: 300px;
+}
+
+section.app div.container div.form{
+    max-width: 485px;
+}
+
+section.app div.container div.form h3{
+    font-size: 3rem;
+}
+
+section.app div.container div.form small{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 20px 0;
+    color: #393737;
+}
+
+/* radio button styles */
+
+section.app div.container div.form div.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+
+section.app div.container div.form div.input input{
+    flex-grow: 65;
+    background-color: #fff;
+    border: 1px solid #CFCFCF;
+    font-size: 1.2 rem;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 100%;
+    margin: 0 10px 0 0 ;
+}
+
+section.app div.container div.form div.input button{
+    background-color: #F57082;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    height: 100%;
+    font-weight: 100;
+}
+
+section.app div.container div.form div.download{
+    margin: 20px 0;
+    font-weight: 100;
+    color: grey;
+}
+
+section.app div.container div.form div.download div img{
+    max-width: 150px;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+section.options{
+    min-height: 60vh;
+}
+
+section.options div.container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+section.options div.container h2{
+    font-size: 2rem;
+    margin: 80px;
+}
+
+section.options div.container h3{
+    font-size: 1.6rem;
+    margin: 40px;
+}
+
+section.options div.container div{
+    margin-top: 40px;
+    margin: 40px;
+}
+
+section.options div.container div ul{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+section.options div.container div ul li{
+   margin: 3px 10px;
+   color: gray;
+   font-size: 1.1rem;
+   font-weight: 100;
+}
+
+div.footer_div{
+    background-color: #f8f8f8;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: 0px auto;
+    padding: 40px 0;
+    
+  }
+
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .footer__row__2  p.column_heading{
+      color: black;
+      font-weight: 300;
+      letter-spacing: 1.5px;
+  }
+  
+  .footer__row__2 p{
+    color: grey;
+    margin-top: 10px;
+  }
+  
+  .footer__row__1 h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Okra', Helvetica, sans-serif;
+    float: left;
+  }
+
+  .footer__row__4{
+      font-size: 16px;
+      color: #4f4f4f;
+      justify-content: flex-start;
+  }
+
+  div.footer__row__3 {
+    text-align: start;
+    margin: 50px 0px 8px;
+    vertical-align: baseline;
+    line-height: normal;
+    background-color: #bcbcbc;
+    width: 100%;
+    height: 1px;
+
+  }
+  
